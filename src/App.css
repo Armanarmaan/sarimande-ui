@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.tweet{
+  border: 2px solid black;
+  width: 40%;
+  margin-left: 25px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
