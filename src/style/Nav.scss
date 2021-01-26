@@ -1,0 +1,16 @@
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: burlywood;
+  .title{
+    
+  }
+  .links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+}
