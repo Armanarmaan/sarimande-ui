@@ -24,7 +24,7 @@ function Shop() {
     
 
     <div>
-      <h1>Food Menu</h1>
+      <h1>TEST Menu</h1>
       <div>
         {items.map(item => (
           <div className="shop-item" key={item.id}>
