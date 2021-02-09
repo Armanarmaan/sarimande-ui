@@ -3,21 +3,28 @@ import { useState, useEffect } from 'react';
 
 function Shop() {
 
+  // FETCH
   useEffect(() => {
     fetchItems();
   }, []);
 
+  // SETTER
   const [items, setItems] = useState([]);
 
+  // GETTER
   const fetchItems = async () => {
     const data = await fetch('https://fakestoreapi.com/products').then(res => res.json());
     console.log(data);
     setItems(data);
   };
 
+  // VIEW
   return (
+
+    
+
     <div>
-      <h1>Hello Shop!</h1>
+      <h1>Food Menu</h1>
       <div>
         {items.map(item => (
           <div className="shop-item" key={item.id}>
