@@ -10,7 +10,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: 1.3s;
+    transition: 2s;
     background-color: transparent;
     box-shadow: 10px 10px 0px 1000px rgba(238,230,213,1);
     -webkit-box-shadow: 10px 10px 0px 1000px rgba(238,230,213,1);
@@ -31,6 +31,13 @@
     }
     .loading-images.goDown{
       top: 50%;
+    }
+    .logo{
+      transition: 1.8s;
+      top: 50%!important;
+    }
+    .logo.goUp{
+      top: 8%!important;
     }
   }
 }
