@@ -27,7 +27,8 @@ const Nav = () => {
       <p className="title">#Kitamakanenakhariini</p>
       </div>
       
-      <ul className={renderClasses()}>
+      {/* <ul className={renderClasses()}> */}
+      <ul>
         <Link to="/shop">
           <li>Food Menu</li>
         </Link>

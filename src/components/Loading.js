@@ -50,7 +50,7 @@ function Loading() {
   const changeBorderSize = () =>{
     $('.img-border').addClass('go');
     $('.loading-images').addClass('goDown');
-    $('.logo').addClass('goUp');
+    $('.logo-loading').addClass('goUp');
     setTimeout(function(){ 
       hideLoading();
     }, 2700);
@@ -68,7 +68,7 @@ function Loading() {
     <div className="loading-container d-flex justify-content-center">
       <div className="img-container">
         <img src={imgLoading} alt="sarimande-image-loading" className="loading-images"/>
-        <img src={logo} className="logo" alt="sarimande-logo"/>
+        <img src={logo} className="logo-loading" alt="sarimande-logo"/>
       </div>
       <div className="img-border"></div>
     </div>
