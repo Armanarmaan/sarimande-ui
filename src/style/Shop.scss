@@ -1,7 +1,28 @@
-.shop-item{
+// .shop-item{
+//   display: flex;
+//   justify-content: left;
+//   p{
+//     margin-left: 20px;
+//   }
+// }
+
+.menu-section{
+  background-color: #EEE6D5;
+  width: 100%;
+  padding-top: 50px;
   display: flex;
-  justify-content: left;
-  p{
-    margin-left: 20px;
+  justify-content: space-between;
+  .nav-tab{
+    a{
+      font-size: 36px;
+      color: #000000;
+    }
+    a.active{
+      color: rgba(194, 65, 33, 0.5);
+    }
+    a:hover{
+      text-decoration: none;
+
+    }
   }
 }

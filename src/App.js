@@ -7,10 +7,11 @@ import Loading from './components/Loading';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
+  const checkPath = window.location.pathname == '/' ? <Loading /> : '';
   return (
     <Router>
       <div>
-        <Loading />
+        {checkPath}
         <Nav />
         <Switch>
           <Route path="/" exact component={Home} />
