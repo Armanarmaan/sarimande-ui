@@ -1,13 +1,12 @@
 .navbar{
-  display: flex;
-  justify-content: space-around;
-  background-color:#C24121 ;
+  background-color: #C24121;
 }
 
 .title{
   color: #fff;
   margin-top: 10px;
-  margin-left: 30px;
+  font-size: 18px;
+  font-family: Basics Serif Free;
 }
 
 .hamburger-btn{
@@ -16,30 +15,72 @@
   color: white;
 }
 
-.logo{
-  height: 50px;
+
+.img-logo{
+  height: 70px;
+  object-fit: cover;
 }
-.links li{
-  color:black;
+.modal-open .modal {
+  overflow-y: hidden !important;
+}
+.btn-primary{
+  background-color: unset !important;
+  border-color: unset !important;
+}
+.modal-backdrop.show{
+  opacity: 0 !important;
 }
 
-.links{
-  position: absolute;
-  list-style: none;
-  display: flex;
+.container-fluid{
+  position: relative;
+  .img-logo{
+    position: absolute;
+    left: 50%;
+      transform: translate(-50%, 0%);
+  }
+}
+#ModalNavbar{
+.modal-body li{
+  color: white;
+  font-family: Basics Serif Free;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 100px;
+  text-decoration: none;
+  
+  
+}
+
+
+.modal-content{
+  border: none;
+}
+
+.modal-dialog{
+  max-width: none;
+  
+  margin-right: auto ;
+  margin-left: auto ;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
-  left: 0vh;
-  height: 94vh;
-  top: 6.5vh;
-  background-color: #F39E03;
-  justify-content: space-around;
-  font-size: 25px;
-  transform: translate(0,-120%);
-  transition: transform 0.5s ease-in;
 }
 
-.active{
-  transform: translate(0,0%) ;
+
+
+.modal-body{
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  display: flex !important;
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2.5rem ;
+  background-color: #C24121;
+  height: 100vh;
+}
+
+
+
+
 }
