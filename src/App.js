@@ -5,6 +5,7 @@ import About from './components/About';
 import Shop from './components/Shop';
 import Loading from './components/Loading';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
   const checkPath = window.location.pathname == '/' ? <Loading /> : '';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/shop" exact component={Shop} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

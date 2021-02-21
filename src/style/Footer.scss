@@ -1,0 +1,46 @@
+.footer{
+    display: block;
+    justify-content: space-around;
+    background-color: #333333;
+    padding: 50px;
+    color: #ffff;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    div{
+        display: block;
+        .itemlist{
+            list-style: none;
+            padding: 0;
+        }
+    }
+    .medsos{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+        }
+}
+.bot{
+    display: flex;
+    border-top: 1px solid white;
+    padding-top: 30px;
+    margin-top: 30px;
+    .terms{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        list-style: none;
+        :first-child{
+            margin-right: 20px;
+        }
+    }
+    
+    .copyright{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        list-style: none; 
+    }
+}
