@@ -67,8 +67,8 @@ function Loading() {
   return (
     <div className="loading-container d-flex justify-content-center">
       <div className="img-container">
-        <img src={imgLoading} alt="sarimande-image-loading" className="loading-images"/>
-        <img src={logo} className="logo" alt="sarimande-logo"/>
+        <img src={imgLoading} alt="sarimande-loading" className="loading-images"/>
+        <img src={logo} alt="sarimande-logo"className="logo"/>
       </div>
       <div className="img-border"></div>
     </div>

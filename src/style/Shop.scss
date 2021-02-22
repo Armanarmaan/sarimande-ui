@@ -10,19 +10,29 @@
   background-color: #EEE6D5;
   width: 100%;
   padding-top: 50px;
+  padding-bottom: 120px;
   display: flex;
   justify-content: space-between;
-  .nav-tab{
-    a{
-      font-size: 36px;
-      color: #000000;
+  .title-and-navtab{
+    display: flex;
+    align-items: center;
+    .title-menu{
+      margin-right: 90px;
     }
-    a.active{
-      color: rgba(194, 65, 33, 0.5);
-    }
-    a:hover{
-      text-decoration: none;
-
+    .nav-tab{
+      a{
+        font-size: 36px;
+        color: #000000;
+        font-weight: 800;
+      }
+      a.active{
+        color: rgba(194, 65, 33, 0.5);
+      }
+      a:hover{
+        text-decoration: none;
+  
+      }
     }
   }
+  
 }
