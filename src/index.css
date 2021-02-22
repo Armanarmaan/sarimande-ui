@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-sarimande{
+  padding-left: 80px;
+  padding-right: 80px;
+}

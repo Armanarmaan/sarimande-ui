@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 
 function App() {
-  const checkPath = window.location.pathname == '/' ? <Loading /> : '';
+  const checkPath = window.location.pathname === '/' ? <Loading /> : '';
   return (
     <Router>
       <div>
