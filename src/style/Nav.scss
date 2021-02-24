@@ -23,10 +23,7 @@
 .modal-open .modal {
   overflow-y: hidden !important;
 }
-.btn-primary{
-  background-color: unset !important;
-  border-color: unset !important;
-}
+
 .modal-backdrop.show{
   opacity: 0 !important;
 }
@@ -39,48 +36,126 @@
       transform: translate(-50%, 0%);
   }
 }
+
+  .btn-primary{
+    background-color: unset !important ;
+    border: none !important;
+    border-color: unset !important;
+    box-shadow: unset !important;
+    text-transform: none;
+  }
+
+  .titleLogin{
+    color: white;
+    font-family: HalveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
 #ModalNavbar{
-.modal-body li{
-  color: white;
-  font-family: Basics Serif Free;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 96px;
-  line-height: 100px;
-  text-decoration: none;
+  .modal-body li{
+    color: white;
+    font-family: Basics Serif Free;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 112px;
+    line-height: 100px;
+    text-decoration: none;
+  }
+
+
+  .modal-content{
+    border: none;
+  }
+
+  .modal-dialog{
+    max-width: none;
+    
+    margin-right: auto ;
+    margin-left: auto ;
+    flex-direction: column;
+  }
+
+
+  .modal-body{
+    text-align: center;
+    list-style: none;
+    display: flex ;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.3rem ;
+    background-color: #C24121;
+    height: 100vh;
+  }
+}
+
+#LoginNavbar{
+  .modal-body{
+    text-align: center;
+    list-style: none;
+    display: flex ;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.5rem ;
+    background-color: #C24121;
+    height: 60.5vh;
+  }
+
+  .modal-dialog{
+    max-width: none;
+    
+    margin-right: auto ;
+    margin-left: auto ;
+    flex-direction: column;
+  }
+  .modal-content{
+    border: none;
+    
+  }
+
+  .form-control{
+    width: 320px;
+    height: 40px;
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
+  }
   
+  .mb-3{
+    margin-left: 780px;
+    
+  }
   
-}
+ 
+  .btn{
+    width: 125px;
+    height: 51px;
+    margin-left:880px;
+    text-transform: none !important;
+  }
 
-
-.modal-content{
-  border: none;
-}
-
-.modal-dialog{
-  max-width: none;
-  
-  margin-right: auto ;
-  margin-left: auto ;
-  flex-direction: column;
-}
-
-
-
-.modal-body{
-  text-align: center;
-  list-style: none;
-  width: 100%;
-  display: flex !important;
-  position: absolute;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 2.5rem ;
-  background-color: #C24121;
-  height: 100vh;
-}
-
-
-
+  .google{
+    border-radius: 10rem;
+    height: 31px;
+    width: 200px;
+    margin-left: 842px;
+    margin-top: 20px;
+  }
+  .titlemsg{
+    margin-top: 20px;
+    color: white;
+    font-family: HalveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+  }
 
 }
