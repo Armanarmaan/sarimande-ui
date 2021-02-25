@@ -17,6 +17,9 @@ function Shop() {
   //   setItems(data);
   // };
 
+  const rendang = require('../assets/rendang.png').default;
+  const telur = require('../assets/telur.png').default;
+
   // VIEW
   return (
     // EXAMPLE SHOW DATA FROM FETCH JSON
@@ -45,9 +48,225 @@ function Shop() {
           <a className="" id="menu-1" data-toggle="pill" href="#item-1" role="tab">MENU B</a>
         </div>
       </div>
-      <div className="tab-content tab-pane" id="tabpane">
-        <div className="tab-pane fade show active" id="item-0" role="tabpanel">ASSET MENU A</div>
-        <div className="tab-pane fade" id="item-1" role="tabpanel">ASSET MENU B</div>
+      <div className="tab-content tab-pane tab-content-menu" id="tabpane">
+        <div className="tab-pane fade show active" id="item-0" role="tabpanel">
+          <div className="items-wrapper">
+            <a href="#">
+              <div className="item-wrap">
+                <img src={rendang} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">RENDANG</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={rendang} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">RENDANG</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={rendang} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">RENDANG</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={rendang} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">RENDANG</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={rendang} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">RENDANG</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={rendang} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">RENDANG</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={rendang} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">RENDANG</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={rendang} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">RENDANG</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={rendang} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">RENDANG</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="tab-pane fade" id="item-1" role="tabpanel">
+          <div className="items-wrapper">
+            <a href="#">
+              <div className="item-wrap">
+                <img src={telur} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">TELUR</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={telur} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">TELUR</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={telur} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">TELUR</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={telur} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">TELUR</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div className="item-wrap">
+                <img src={telur} className="item-img"/>
+                <div className="overlay-add-cart">
+                  <div className="overlay-background"></div>
+                  <div className="overlay-wrapper">
+                    <div className="description-wrapper">
+                      <p className="item-name">TELUR</p>
+                      <p className="item-price">IDR 15.000,00</p>
+                      <a href="#">ADD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     
