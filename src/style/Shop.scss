@@ -21,9 +21,11 @@
     }
     .nav-tab{
       a{
-        font-size: 36px;
+        font-size: 46px;
+        font-family: auto;
         color: #000000;
         font-weight: 800;
+        margin-bottom: 0px;
       }
       a.active{
         color: rgba(194, 65, 33, 0.5);
@@ -37,6 +39,8 @@
 
   .tab-content-menu{
     width: 70%;
+    height: 757px;
+    
     .items-wrapper{
       width: 100%;
       display: flex;
