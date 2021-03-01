@@ -1,15 +1,25 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
+@font-face {
+  font-family:"Basics Serif Free Regular";
+  src:url("assets/font/Basics_Serif_-_Free.eot") format("eot"),
+  url("assets/font/Basics_Serif_-_Free.svg") format("woff"),
+  url("assets/font/Basics_Serif_-_Free.ttf") format("truetype"),
+  url("assets/font/Basics_Serif_-_Free.woff") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Basics Serif Free Regular',
+    sans-serif!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Basics Serif Free Regular',
+  sans-serif!important;
 }
 
 .container-sarimande{
