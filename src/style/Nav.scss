@@ -22,6 +22,7 @@
 }
 .modal-open .modal {
   overflow-y: hidden !important;
+  padding-left: 0px !important;
 }
 
 .modal-backdrop.show{
@@ -54,7 +55,14 @@
     line-height: 20px;
     text-decoration: none;
   }
-
+  .modal-dialog{
+    max-width: 100% !important;
+    margin-right: auto ;
+    margin-left: auto ;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  
 #ModalNavbar{
   .modal-body li{
     color: white;
@@ -62,8 +70,10 @@
     font-style: normal;
     font-weight: normal;
     font-size: 112px;
-    line-height: 100px;
+    line-height: 120px;
     text-decoration: none;
+    
+    
   }
 
 
@@ -71,14 +81,7 @@
     border: none;
   }
 
-  .modal-dialog{
-    max-width: none;
-    
-    margin-right: auto ;
-    margin-left: auto ;
-    flex-direction: column;
-  }
-
+  
 
   .modal-body{
     text-align: center;
@@ -91,10 +94,12 @@
     margin-top: 2.3rem ;
     background-color: #C24121;
     height: 100vh;
+    padding-bottom: 250px;
   }
-}
 
+}
 #LoginNavbar{
+  
   .modal-body{
     text-align: center;
     list-style: none;
@@ -105,12 +110,31 @@
     flex-direction: column;
     margin-top: 2.5rem ;
     background-color: #C24121;
-    height: 60.5vh;
+    height: 100vh;
+    line-height: 100px;
+    padding-bottom: 250px;
+  }
+
+  .signup{
+    color: white;
+    cursor: pointer;
+  }
+
+  .login {
+    color: white;
+    font-family: Basics Serif Free;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 112px;
+    text-decoration: none;
+    width: 400px;
+    margin-left: 740px;
+    padding-top: 20px;
+    cursor: pointer;
   }
 
   .modal-dialog{
     max-width: none;
-    
     margin-right: auto ;
     margin-left: auto ;
     flex-direction: column;
@@ -158,4 +182,84 @@
     text-decoration: none;
   }
 
+}
+
+#RegisterNavbar{
+  .modal-body{
+    text-align: center;
+    list-style: none;
+    display: flex ;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.5rem ;
+    background-color: #C24121;
+    height: 100vh;
+    padding-bottom: 250px;
+  }
+  .email{
+    margin-top: 15px;
+  }
+
+  .pwd{
+    margin-bottom: 20px;
+  }
+
+  .modal-dialog{
+    max-width: none;
+    margin-right: auto ;
+    margin-left: auto ;
+    flex-direction: column;
+  }
+  .modal-content{
+    border: none;
+    
+  }
+
+  .form-control{
+    width: 320px;
+    height: 40px;
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
+  }
+  
+  .mb-3{
+    margin-left: 780px;
+    
+  }
+  
+ 
+  .btn{
+    width: 125px;
+    height: 51px;
+    margin-left:880px;
+    text-transform: none !important;
+  }
+
+  
+  .titlemsg{
+    margin-bottom: 20px;
+    color: white;
+    font-family: HalveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 375px){
+  
+    .modal-body li{
+      color: white;
+      font-family: Basics Serif Free;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 100px;
+      text-decoration: none;
+    }
+  
 }
