@@ -4,10 +4,24 @@
     background-color: #333333;
     padding: 50px;
     color: #ffff;
+    line-height: 25px;
 }
 .items{
     display: flex;
     justify-content: space-between;
+    margin-top: -50px;
+    .sitemap{
+        font-size: 25px;
+    }
+    .location{
+        font-size: 25px;
+    }
+    .followus{
+        font-size: 25px;
+    }
+    .beintheknow{
+        font-size: 25px;
+    }
     div{
         display: block;
         .itemlist{
@@ -17,10 +31,27 @@
     }
     .medsos{
         display: flex;
-        justify-content: space-between;
+        justify-content: start;
         list-style: none;
         padding: 0;
+        .instagram{
+            width: 25px;
         }
+        .facebook{
+            width: 25px;
+            margin-left: 15px;
+        }
+    }
+    .box{
+        display: flex;
+        :placeholder-shown {
+            border-radius: 10px;
+        }
+        .button{
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+    }
 }
 .bot{
     display: flex;
@@ -41,6 +72,7 @@
         width: 50%;
         display: flex;
         justify-content: flex-end;
-        list-style: none; 
+        list-style: none;
+        font-size: 18px;
     }
 }

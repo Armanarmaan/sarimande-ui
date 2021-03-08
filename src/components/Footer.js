@@ -1,15 +1,18 @@
 import '../style/Footer.scss';
 import { Link } from 'react-router-dom';
 
+const instagram = require('../assets/instagram.png').default;
+const facebook = require('../assets/facebook.png').default;
+const logosm = require('../assets/logosm.png').default;
+
 function Footer() {
   return (
     <footer className="footer">
-      <div>
-        <p>Logo</p>
-      </div>
       <div className="items">
         <div>
-          <p>SiteMap</p>
+          <div className="sitemap">
+            <p>SiteMap</p>
+          </div>
           <ul className="itemlist">
             <li>
               <a>FoodMenu</a>
@@ -21,10 +24,11 @@ function Footer() {
               <a>Gallery</a>
             </li>
           </ul>
-
         </div>
         <div>
-          <p>Location</p>
+          <div className="location">
+            <p>Location</p>
+          </div>
           <ul className="itemlist">
             <li>
               <a>Menteng</a>
@@ -36,7 +40,7 @@ function Footer() {
               <a>Pancoran</a>
             </li>
             <li>
-              <a>lebak Bulus</a>
+              <a>Lebak Bulus</a>
             </li>
             <li>
               <a>Cibubur</a>
@@ -45,19 +49,25 @@ function Footer() {
         </div>
 
         <div>
-          <p>Follow US</p>
+          <div className="followus">
+            <p>Follow US</p>
+          </div>
           <ul className="medsos">
             <li>
-              <a>ig</a>
+              <img src={instagram} className="instagram"></img>
             </li>
             <li>
-              <a>fb</a>
+              <img src={facebook} className="facebook"></img>
             </li>
           </ul>
-          <p>Be in the Know</p>
+          <div className="beintheknow">
+            <p>Be in the Know</p>
+          </div>
           <p>Subscribe to Sarimande Metropolitan newsletter</p>
-          <input type="email" placeholder="Email" />
-          <button type="button">Sign Up Now</button>
+          <div className="box">
+            <input type="email" placeholder="Email" />
+            <button className="button">Sign Up Now</button>
+          </div>
         </div>
       </div>
       <div className="bot">
